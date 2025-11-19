@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantilla</title>
+    <meta name="description" content="Esto es la descripción de mi página web">
+    <meta name="keywords" content="html, ejercicio, ejercicio1, ejemplo">
+    <meta name="author" content="Miguel rodriguez">
+    <meta name="application-name" content="Plantilla.html">
+    <meta name="generator" content="VSCode">
+    <link rel="icon" sizes="64x64" href="./assets/icons/real-betis-logo-1.png">
+</head>
+<body>
+    <h1>Rellena tu CV</h1>
+
+    <form method="post" action="/send.html">
+        
+        <label for="nombre">Nombre</label><br>
+        <input type="text" aria-selected="nombre" name="nombre"><br>
+        
+        <label for="apellidos">Apellidos</label><br>
+        <input type="text" aria-selected="apellidos" name="apellidos" size="50"><br>
+        
+        <label for="contrasena">Contraseña</label><br>
+        <input type="password" aria-selected="contrasena" name="contrasena" size="15"><br>
+        
+        <label for="dni">DNI</label><br>
+        <input type="text" aria-selected="dni" name="dni" size="10"><br>
+        
+        <label>Sexo</label><br>
+        <input type="radio" aria-selected="hombre" name="sexo" value="hombre" checked>
+        <label for="hombre">Hombre</label><br>
+        <input type="radio" aria-selected="mujer" name="sexo" value="mujer">
+        <label for="mujer">Mujer</label><br><br>
+
+        <label for="foto">Incluir mi foto</label>
+        <input type="file" id="foto">
+        <br><br>
+        
+        <input type="checkbox" id="boletin" name="boletin" checked>
+        <label for="boletin">Suscribirme al boletín de novedades</label>
+        <br><br>
+        
+        <input type="submit" value="Guardar cambios">
+        <input type="reset" value="Borrar los datos introducidos">
+
+    </form>
+</body>
+</html>
